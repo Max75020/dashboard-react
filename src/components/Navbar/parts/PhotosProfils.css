@@ -1,0 +1,8 @@
+.people_connect {
+    display: flex;
+    align-items: center;
+    margin-left: 13px;
+    height: 38px;
+    width: 101px;
+    position: relative;
+}

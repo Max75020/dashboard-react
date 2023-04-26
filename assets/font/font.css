@@ -1,0 +1,9 @@
+@font-face {
+    font-family: gilroy;
+    src: url('/assets/font/Gilroy-Medium.ttf');
+}
+
+@font-face {
+    font-family: inter;
+    src: url('/assets/font/Inter-Medium.ttf');
+}

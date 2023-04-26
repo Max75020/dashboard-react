@@ -1,0 +1,159 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 100%;
+    background-color: #081A51;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo_container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 14px;
+    margin: 20px 0px 12px 30px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 18px;
+    color: #CCD2E3;
+}
+
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+    gap: 16px;
+    padding: 15px 20px;
+    margin: 0px 0px 0px 15px;
+}
+
+.menu-content:hover {
+    color: #FFFFFF;
+    background: #1B2B65;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.sidebar_up_gap {
+    margin: 10px 0px 0px 0px;
+}
+
+.logo_container h2 {
+    font-family: gilroy;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+h3 {
+    font-family: gilroy;
+    font-weight: 400;
+    margin-left: 28px;
+    font-size: 12px;
+    color: #51CBFF;
+    margin-top: 50px;
+    margin-bottom: 9px;
+}
+
+h4 {
+    font-family: gilroy;
+    font-weight: 400;
+    font-size: 18px;
+    color: #CCD2E3;
+}
+
+.sidebar_down_img img {
+    position: relative;
+    left: 114px;
+    top: 24px;
+    background: #AABBFA;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 100%;
+    padding: 4px;
+}
+
+.need_help {
+    height: 125px;
+    width: 190px;
+    background: #1B2B65;
+    border-radius: 8px;
+    margin: 0px auto 39px auto;
+
+}
+
+.need_help_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.need_help_text p {
+    font-family: gilroy;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.need_help {
+    display: flex;
+    justify-content: center;
+}
+
+.need_help_go {
+    background: #017EFA;
+    border-radius: 6px;
+    width: 166px;
+    height: 40px;
+}
+
+.need_help_go_text {
+    margin-top: 10px;
+    text-align: center;
+    font-family: gilroy;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.notification {
+    background: #CF3A59;
+    margin-right: 25px;
+    border-radius: 4px;
+    padding: 5px 8px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+
+.buttonClose {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #DADADA;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    right: -20px;
+    top: 26px;
+}
+
+.buttonClose svg {
+    width: 10px;
+}

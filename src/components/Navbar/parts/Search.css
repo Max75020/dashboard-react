@@ -1,0 +1,21 @@
+.searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 6px;
+}
+
+.searchbar input {
+    font-style: normal;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 18px;
+    border: unset;
+    background: unset;
+    line-height: 19px;
+}
+
+.searchbar input ::placeholder {
+    color: #979797;
+}

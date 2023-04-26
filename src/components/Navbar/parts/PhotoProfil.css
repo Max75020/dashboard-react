@@ -1,0 +1,13 @@
+.photo_profil_container {
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.photo_profil {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
