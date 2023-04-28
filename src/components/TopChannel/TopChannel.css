@@ -1,0 +1,62 @@
+.visites {
+    display: flex;
+    align-items: center;
+    height: 33px;
+    margin: 20px 0px 0px 26px;
+    gap: 5px;
+}
+
+.visites_nombres {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    color: #1C1F37;
+}
+
+.visites_stats {
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+    height: 20px;
+}
+
+.stats_arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats_percents {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #30D988;
+}
+
+.stats_visit_text {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: rgba(28, 31, 55, 0.58);
+}
+
+.visites_bar {
+    width: 337px;
+    height: 10px;
+    margin: 20px 21px 25px 26px;
+    border-radius: 44px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    overflow: hidden;
+}
+
+.visites_bar_part {
+    height: 10px;
+}

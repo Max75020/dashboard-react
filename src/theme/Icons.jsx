@@ -125,3 +125,26 @@ export const ChevronRightIcon = ({ ...rest }) => {
         </svg>
     );
 };
+
+export const ChevronRight = ({ ...rest }) => {
+    return (
+        <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg" {...rest}>
+            <path d="M6.70715 13.2072L11.4138 8.49985L6.70715 3.79252L5.29248 5.20719L8.58581 8.49985L5.29248 11.7925L6.70715 13.2072Z" fill="#017EFA" />
+        </svg>
+    );
+};
+
+export const ArrowStatsPercents = ({ ...rest }) => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" fill="none" {...rest}>
+            <g stroke="#30D988" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.385" clipPath="url(#a)">
+                <path d="M7.125 4.126 4.5 1.5 1.875 4.126M4.5 1.5v6" />
+            </g>
+            <defs>
+                <clipPath id="a">
+                    <path fill="#fff" d="M9 0v9H0V0z" />
+                </clipPath>
+            </defs>
+        </svg>
+    );
+};

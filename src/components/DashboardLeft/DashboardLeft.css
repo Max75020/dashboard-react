@@ -1,0 +1,27 @@
+.dashboard_left_welcolm {
+    font-family: gilroy;
+    font-style: normal;
+    margin-bottom: 21px;
+    width: 200px;
+    padding-top: 18px;
+}
+
+.dashboard_left_welcolm h2 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #1C1F37;
+}
+
+.dashboard_left_welcolm p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6F6F6F;
+}
+
+.widgets {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    width: 384px;
+}
