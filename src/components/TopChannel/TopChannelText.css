@@ -1,0 +1,61 @@
+.topchanneltext {
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    border-bottom: 1px solid #ECECEC;
+    margin-left: 26px;
+    width: 337px;
+}
+
+.channelnetwork {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+    width: 130px;
+}
+
+.imgnetwork {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textnetwork {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    width: 80px;
+}
+
+.visitornetwork {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 65px;
+}
+
+.visitornumber {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+    width: 70px;
+}
+
+.visitorpercents {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+}

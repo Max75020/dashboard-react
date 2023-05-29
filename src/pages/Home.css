@@ -2,7 +2,6 @@
     background-color: #F8F9FF;
     display: grid;
     gap: 40px;
-    grid-template-columns: 384px 1126px;
-    align-items: center;
+    grid-template-columns: 384px 1109px;
     padding: 0px 51px 63px 59px;
 }

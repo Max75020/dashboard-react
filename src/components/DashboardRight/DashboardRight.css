@@ -1,0 +1,42 @@
+.dash_right_title,
+.dash_right_tile_second {
+    display: flex;
+    align-items: center;
+}
+
+.dash_right_title {
+    gap: 790px;
+    margin-top: 50px;
+    margin-bottom: 22px;
+}
+
+.dash_right_title h2 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1C1F37;
+}
+
+.dash_right_tile_second {
+    gap: 16px;
+}
+
+.dash_right_tile_second h3 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0;
+}
+
+.reach_stats {
+    width: 1109px;
+    height: 88px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px #F1F2FA;
+    border-radius: 8px;
+}

@@ -148,3 +148,9 @@ export const ArrowStatsPercents = ({ ...rest }) => {
         </svg>
     );
 };
+
+export const ArrowDown = ({ ...rest }) => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" fill="none" {...rest}><path fill="#017EFA" d="M10.293.293 6 4.586 1.707.293.293 1.707 6 7.414l5.707-5.707L10.293.293Z" /></svg>
+    );
+};
